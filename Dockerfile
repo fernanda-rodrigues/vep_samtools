@@ -39,6 +39,7 @@ WORKDIR /opt/lib/perl/VEP/Plugins
 RUN wget https://raw.githubusercontent.com/Ensembl/VEP_plugins/release/100/Downstream.pm \
 	https://raw.githubusercontent.com/griffithlab/pVACtools/master/pvactools/tools/pvacseq/VEP_plugins/Wildtype.pm \
 	https://raw.githubusercontent.com/griffithlab/pVACtools/master/pvactools/tools/pvacseq/VEP_plugins/Frameshift.pm \
+	https://raw.githubusercontent.com/Ensembl/VEP_plugins/release/100/AncestralAllele.pm \
 	https://raw.githubusercontent.com/Ensembl/VEP_plugins/release/100/CADD.pm \
 	https://raw.githubusercontent.com/Ensembl/VEP_plugins/release/100/REVEL.pm \
 	https://raw.githubusercontent.com/Ensembl/VEP_plugins/release/100/ExACpLI.pm \
